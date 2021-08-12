@@ -1,0 +1,907 @@
+/* things to look back on 
+
+font-family: 'Roboto', sans-serif;
+    background: linear-gradient(to right, #CCC 50%, #FF5858 50%, #CC2E5D);
+
+*/
+.row, .container, .p-3 {
+    
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+body, html {
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.carousel-item {
+    height: 65vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.abouttitle {
+    font-family: 'Roboto', sans-serif;
+    font-size: 3rem;
+}
+
+@media only screen and (max-width: 768px) {
+    .abouttitle {
+        font-size: 2rem;
+    }
+}
+
+.section-lead {
+    max-width: 600px;
+    margin: 1rem auto 1.5rem;
+  }
+  
+  .service a {
+    color: #5b7abb;
+    display: block;
+  }
+  
+  .service h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #56ceba;
+    font-size: 1.3rem;
+    margin: 1rem 0 0.6rem;
+  }
+  
+  .services-grid {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+  }
+  
+  .service {
+    background: #fff;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 4px;
+    text-align: center;
+    -webkit-box-flex: 1;
+    flex: 1;
+    display: -webkit-box;
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid #e7e7e7;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+  }
+  
+  .service:hover {
+    -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.08);
+    -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.08);
+  }
+  
+  .service i {
+    font-size: 2rem;
+    margin: 1rem 0;
+  }
+  
+  .service1 i,
+  .service1 h4,
+  .service1 .cta {
+    color: #0173AF;
+  }
+  
+  .service1:hover {
+    border: 2px solid #000000;
+  }
+  
+  .service2 i,
+  .service2 h4,
+  .service2 .cta {
+    color: #0173AF;
+  }
+  
+  .service2:hover {
+    border: 2px solid #000000;
+  }
+  
+  .service3 i,
+  .service3 h4,
+  .service3 .cta {
+    color: #0173AF;
+  }
+  
+  .service3:hover {
+    border: 2px solid #000000;
+  }
+  
+  .service .cta span {
+    font-size: 0.6rem;
+  }
+
+  
+  
+  .service > * {
+    flex: 1 1 100%;
+  }
+  
+  .service .cta {
+    align-self: flex-end;
+  }
+  
+  @media all and (max-width:900px) {
+    .services-grid {
+      display: -webkit-box;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      flex-direction: column;
+    }
+  }
+#fullscreenvideo {
+    height: 80vh;
+    width: 100vw;
+    background-color: white;
+  }
+  
+  #fullscreenvideo video {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    object-fit: cover;
+  }
+
+.imagesize img {
+    padding: 1rem;
+    width: 175px;
+}
+
+.bg-blue {
+    background-color: #0173AF;
+}
+
+.nav-item {
+    text-transform: uppercase;
+    font-size: 0.8rem;
+}
+
+.nav-link {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    position: relative;
+}
+
+.nav-link::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background: currentColor;
+
+    transform: scaleX(0);
+    transform-origin: right;
+    color: #000000;
+    transition: transform 250ms ease-in;
+}
+
+.nav-link:hover::after {
+    transform: scaleX(1);
+    transform-origin: left;
+    color: #424242;
+}
+
+.footerborder {
+    border: solid whitesmoke 2px;
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
+    bottom: 0;
+}
+
+
+.modal button.close {
+  right: 0;
+  outline: 0;
+}
+  
+#gallery-lightbox img {
+    padding: 0.1rem;
+  height: 350px;
+  object-fit: cover;
+}
+
+.paddingtop {
+    margin-top: 10rem;
+}
+
+.h1bottom {
+    padding-bottom: 2rem;
+}
+
+.row > div {
+    padding: 0 4px !important;
+}
+
+img {
+  margin-top: 8px;
+  vertical-align: middle;
+
+}
+
+
+.ourprojects {
+    font-size: 2.5rem;
+}
+/* hero section */
+
+.gif {
+    background-image: url(https://cdn.dribbble.com/users/4048081/screenshots/12201146/media/393af3a5c5fdeabe338fbe745a198551.gif);
+    height: 80vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.hero-image {
+    background-image: url(/images/portfolio.png);
+    height: 90vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.hero-image2 {
+    background-image: url(/images/indexhero.jpg);
+    height: 90vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.hero-image3 {
+    background-image: url(/images/work.jpg);
+    height: 50vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.thankyou {
+    background-image: url(/images/thankyou.jpg);
+    height: 80vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.hero-text {
+    background-color: rgba(44, 44, 44, 0.493);
+    box-shadow: 0 20px 52px 0 rgb(29, 29, 29);
+    backdrop-filter: blur(1px) saturate(100%) contrast(45%) brightness(130%);
+    -webkit-backdrop-filter: blur( 0.0px );
+    border-radius: 20px;
+    padding: 1rem;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: whitesmoke;
+}
+
+.hero-text h1 {
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 1rem;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    font-weight: 300;
+}
+
+.hero-text img {
+    width: 45%;
+}
+
+/* info section */ 
+
+.infosection {
+    padding: 5rem;
+}
+
+/* card hover effect */
+
+
+/* about section */
+
+.card {
+    border: none;
+}
+
+.card-body2 {
+    padding: 3rem;
+}
+
+.card-body2 h3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.7rem;
+}
+
+
+
+.card-body h4 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+}
+
+.card-text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.9rem;
+}
+
+/* 6 cards */
+
+.lowpadding {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+
+.threecards {
+    padding-top: 2rem;
+}
+
+.paddingbottom {
+    padding-bottom: 4rem;
+}
+
+/* 1
+    background: rgba( 255, 255, 255, 0.05 );
+    box-shadow: 0 8px 32px 0 rgba(29, 29, 29, 0.829);
+    backdrop-filter: blur( 0.0px );
+    -webkit-backdrop-filter: blur( 0.0px );
+
+*/
+
+.imageover1 {
+    background: rgba( 255, 255, 255, 0.05 );
+    box-shadow: 0 8px 32px 0 rgba(29, 29, 29, 0.829);
+    backdrop-filter: blur( 0.0px );
+    -webkit-backdrop-filter: blur( 0.0px );
+    border-radius: 5px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background:url(/images/1.jpg) rgba(0, 0, 0, 0.3);
+    background-size:cover;
+    background-blend-mode: multiply;
+    transition: ease-out 0.3s;
+}
+
+.imageover1:hover {
+    transition: ease-in 0.3s;
+    background: rgba( 255, 255, 255, 0.05 );
+    box-shadow: 0 18px 32px 0 rgb(29, 29, 29);
+    backdrop-filter: blur( 0.0px );
+    -webkit-backdrop-filter: blur( 0.0px );
+    border-radius: 5px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background:url(/images/1.jpg) rgba(0, 0, 0, 0.534);
+    background-size:cover;
+    background-blend-mode: multiply;
+}
+
+.imageover1 h3 {
+    text-shadow: 6px 6px 0px rgba(0,0,0,0.2);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: whitesmoke;
+}
+
+.imageover1 p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: whitesmoke;
+}
+
+.imageover1 a {
+    font-family: 'Roboto', sans-serif;
+    color: whitesmoke;
+}
+
+/* 2 */
+
+.imageover2 {
+    background: rgba( 255, 255, 255, 0.05 );
+    box-shadow: 0 8px 32px 0 rgba(29, 29, 29, 0.829);
+    backdrop-filter: blur( 0.0px );
+    -webkit-backdrop-filter: blur( 0.0px );
+    border-radius: 5px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background:url(/images/2.jpg) rgba(0, 0, 0, 0.3);
+    background-size:cover;
+    background-blend-mode: multiply;
+    transition: ease-out 0.3s;
+}
+
+.imageover2:hover {
+    transition: ease-in 0.3s;
+    background: rgba( 255, 255, 255, 0.05 );
+    box-shadow: 0 18px 32px 0 rgb(29, 29, 29);
+    backdrop-filter: blur( 0.0px );
+    -webkit-backdrop-filter: blur( 0.0px );
+    border-radius: 5px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background:url(/images/2.jpg) rgba(0, 0, 0, 0.534);
+    background-size:cover;
+    background-blend-mode: multiply;
+}
+
+.imageover2 h3 {
+    text-shadow: 6px 6px 0px rgba(0,0,0,0.2);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: whitesmoke;
+}
+
+.imageover2 p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: whitesmoke;
+}
+
+.imageover2 a {
+    font-family: 'Roboto', sans-serif;
+    color: whitesmoke;
+}
+
+/* 3 */ 
+
+.imageover3 {
+    background: rgba( 255, 255, 255, 0.05 );
+    box-shadow: 0 8px 32px 0 rgba(29, 29, 29, 0.829);
+    backdrop-filter: blur( 0.0px );
+    -webkit-backdrop-filter: blur( 0.0px );
+    border-radius: 5px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background:url(/images/3.jpg) rgba(0, 0, 0, 0.3);
+    background-size:cover;
+    background-blend-mode: multiply;
+    transition: ease-out 0.3s;
+}
+
+.imageover3:hover {
+    transition: ease-in 0.3s;
+    background: rgba( 255, 255, 255, 0.05 );
+    box-shadow: 0 18px 32px 0 rgb(29, 29, 29);
+    backdrop-filter: blur( 0.0px );
+    -webkit-backdrop-filter: blur( 0.0px );
+    border-radius: 5px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background:url(/images/3.jpg) rgba(0, 0, 0, 0.534);
+    background-size:cover;
+    background-blend-mode: multiply;
+}
+
+.imageover3 h3 {
+    text-shadow: 6px 6px 0px rgba(0,0,0,0.2);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: whitesmoke;
+}
+
+.imageover3 p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: whitesmoke;
+}
+
+.imageover3 a {
+    font-family: 'Roboto', sans-serif;
+    color: whitesmoke;
+}
+
+/* 4 */ 
+
+.imageover4 {
+    background: rgba( 255, 255, 255, 0.05 );
+    box-shadow: 0 8px 32px 0 rgba(29, 29, 29, 0.829);
+    backdrop-filter: blur( 0.0px );
+    -webkit-backdrop-filter: blur( 0.0px );
+    border-radius: 5px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background:url(/images/4.jpg) rgba(0, 0, 0, 0.3);
+    background-size:cover;
+    background-blend-mode: multiply;
+    transition: ease-out 0.3s;
+}
+
+.imageover4:hover {
+    transition: ease-in 0.3s;
+    background: rgba( 255, 255, 255, 0.05 );
+    box-shadow: 0 18px 32px 0 rgb(29, 29, 29);
+    backdrop-filter: blur( 0.0px );
+    -webkit-backdrop-filter: blur( 0.0px );
+    border-radius: 5px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background:url(/images/4.jpg) rgba(0, 0, 0, 0.534);
+    background-size:cover;
+    background-blend-mode: multiply;
+}
+
+.imageover4 h3 {
+    text-shadow: 6px 6px 0px rgba(0,0,0,0.2);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: whitesmoke;
+}
+
+.imageover4 p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: whitesmoke;
+}
+
+.imageover4 a {
+    font-family: 'Roboto', sans-serif;
+    color: whitesmoke;
+}
+
+/* 5 */
+
+.imageover5 {
+    background: rgba( 255, 255, 255, 0.05 );
+    box-shadow: 0 8px 32px 0 rgba(29, 29, 29, 0.829);
+    backdrop-filter: blur( 0.0px );
+    -webkit-backdrop-filter: blur( 0.0px );
+    border-radius: 5px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background:url(/images/5.jpg) rgba(0, 0, 0, 0.3);
+    background-size:cover;
+    background-blend-mode: multiply;
+    transition: ease-out 0.3s;
+}
+
+.imageover5:hover {
+    transition: ease-in 0.3s;
+    background: rgba( 255, 255, 255, 0.05 );
+    box-shadow: 0 18px 32px 0 rgb(29, 29, 29);
+    backdrop-filter: blur( 0.0px );
+    -webkit-backdrop-filter: blur( 0.0px );
+    border-radius: 5px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background:url(/images/5.jpg) rgba(0, 0, 0, 0.534);
+    background-size:cover;
+    background-blend-mode: multiply;
+}
+
+.imageover5 h3 {
+    text-shadow: 6px 6px 0px rgba(0,0,0,0.2);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: whitesmoke;
+}
+
+.imageover5 p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: whitesmoke;
+}
+
+.imageover5 a {
+    font-family: 'Roboto', sans-serif;
+    color: whitesmoke;
+}
+
+/* 6 */
+
+.imageover6 {
+    background: rgba( 255, 255, 255, 0.05 );
+    box-shadow: 0 8px 32px 0 rgba(29, 29, 29, 0.829);
+    backdrop-filter: blur( 0.0px );
+    -webkit-backdrop-filter: blur( 0.0px );
+    border-radius: 5px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background:url(/images/6.jpg) rgba(0, 0, 0, 0.3);
+    background-size:cover;
+    background-blend-mode: multiply;
+    transition: ease-out 0.3s;
+}
+
+.imageover6:hover {
+    transition: ease-in 0.3s;
+    background: rgba( 255, 255, 255, 0.05 );
+    box-shadow: 0 18px 32px 0 rgb(29, 29, 29);
+    backdrop-filter: blur( 0.0px );
+    -webkit-backdrop-filter: blur( 0.0px );
+    border-radius: 5px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background:url(/images/6.jpg) rgba(0, 0, 0, 0.534);
+    background-size:cover;
+    background-blend-mode: multiply;
+}
+
+.imageover6 h3 {
+    text-shadow: 6px 6px 0px rgba(0,0,0,0.2);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: whitesmoke;
+}
+
+.imageover6 p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: whitesmoke;
+}
+
+.imageover6 a {
+    font-family: 'Roboto', sans-serif;
+    color: whitesmoke;
+}
+
+/* 7 */
+
+.imageover7 {
+    background: rgba( 255, 255, 255, 0.05 );
+    box-shadow: 0 8px 32px 0 rgba(29, 29, 29, 0.829);
+    backdrop-filter: blur( 0.0px );
+    -webkit-backdrop-filter: blur( 0.0px );
+    border-radius: 5px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background:url(/images/autodesk.jpg) ;
+    background-size:cover;
+    background-blend-mode: multiply;
+}
+
+/* 8 */
+
+.imageover8 {
+    background: rgba( 255, 255, 255, 0.05 );
+    box-shadow: 0 8px 32px 0 rgba(29, 29, 29, 0.829);
+    backdrop-filter: blur( 0.0px );
+    -webkit-backdrop-filter: blur( 0.0px );
+    border-radius: 5px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background:url(/images/z.jpg);
+    background-size:cover;
+    background-blend-mode: multiply;
+}
+
+
+/* 9 */
+
+.imageover9 {
+    background: rgba( 255, 255, 255, 0.05 );
+    box-shadow: 0 8px 32px 0 rgba(29, 29, 29, 0.829);
+    backdrop-filter: blur( 0.0px );
+    -webkit-backdrop-filter: blur( 0.0px );
+    border-radius: 5px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background:url(/images/nv.jpg);
+    background-size:cover;
+    background-blend-mode: multiply;
+}
+
+
+/* 10 */
+
+.imageover10 {
+    background: rgba( 255, 255, 255, 0.05 );
+    box-shadow: 0 8px 32px 0 rgba(29, 29, 29, 0.829);
+    backdrop-filter: blur( 0.0px );
+    -webkit-backdrop-filter: blur( 0.0px );
+    border-radius: 5px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background:url(/images/ae.jpg);
+    background-size:cover;
+    background-blend-mode: multiply;
+}
+
+/* 11 */
+
+.imageover11 {
+    background: rgba( 255, 255, 255, 0.05 );
+    box-shadow: 0 8px 32px 0 rgba(29, 29, 29, 0.829);
+    backdrop-filter: blur( 0.0px );
+    -webkit-backdrop-filter: blur( 0.0px );
+    border-radius: 5px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background:url(/images/bl.jpg);
+    background-size:cover;
+    background-blend-mode: multiply;
+}
+
+/* 12 */
+
+.imageover12 {
+    background: rgba( 255, 255, 255, 0.05 );
+    box-shadow: 0 8px 32px 0 rgba(29, 29, 29, 0.829);
+    backdrop-filter: blur( 0.0px );
+    -webkit-backdrop-filter: blur( 0.0px );
+    border-radius: 5px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background:url(/images/3ds.jpg);
+    background-size:cover;
+    background-blend-mode: multiply;
+}
+
+/* 13 */
+
+.imageover13 {
+    background: rgba( 255, 255, 255, 0.05 );
+    box-shadow: 0 8px 32px 0 rgba(29, 29, 29, 0.829);
+    backdrop-filter: blur( 0.0px );
+    -webkit-backdrop-filter: blur( 0.0px );
+    border-radius: 5px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background:url(/images/siteplan.jpg) rgba(0, 0, 0, 0.3);
+    background-size:cover;
+    background-blend-mode: multiply;
+    transition: ease-out 0.3s;
+}
+
+.imageover13:hover {
+    transition: ease-in 0.3s;
+    background: rgba( 255, 255, 255, 0.05 );
+    box-shadow: 0 18px 32px 0 rgb(29, 29, 29);
+    backdrop-filter: blur( 0.0px );
+    -webkit-backdrop-filter: blur( 0.0px );
+    border-radius: 5px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background:url(/images/siteplan.jpg) rgba(0, 0, 0, 0.534);
+    background-size:cover;
+    background-blend-mode: multiply;
+}
+
+.imageover13 h3 {
+    text-shadow: 6px 6px 0px rgba(0,0,0,0.2);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: whitesmoke;
+}
+
+
+/* 14 */
+
+.imageover14 {
+    background: rgba( 255, 255, 255, 0.05 );
+    box-shadow: 0 8px 32px 0 rgba(29, 29, 29, 0.829);
+    backdrop-filter: blur( 0.0px );
+    -webkit-backdrop-filter: blur( 0.0px );
+    border-radius: 5px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background:url(/images/3d.jpg) rgba(0, 0, 0, 0.3);
+    background-size:cover;
+    background-blend-mode: multiply;
+    transition: ease-out 0.3s;
+}
+
+.imageover14:hover {
+    transition: ease-in 0.3s;
+    background: rgba( 255, 255, 255, 0.05 );
+    box-shadow: 0 18px 32px 0 rgb(29, 29, 29);
+    backdrop-filter: blur( 0.0px );
+    -webkit-backdrop-filter: blur( 0.0px );
+    border-radius: 5px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background:url(/images/3d.jpg) rgba(0, 0, 0, 0.534);
+    background-size:cover;
+    background-blend-mode: multiply;
+}
+
+.imageover14 h3 {
+    text-shadow: 6px 6px 0px rgba(0,0,0,0.2);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: whitesmoke;
+}
+
+
+/* 15 */
+
+.imageover15 {
+    background: rgba( 255, 255, 255, 0.05 );
+    box-shadow: 0 8px 32px 0 rgba(29, 29, 29, 0.829);
+    backdrop-filter: blur( 0.0px );
+    -webkit-backdrop-filter: blur( 0.0px );
+    border-radius: 5px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background:url(/images/dev.jpg) rgba(0, 0, 0, 0.3);
+    background-size:cover;
+    background-blend-mode: multiply;
+    transition: ease-out 0.3s;
+}
+
+.imageover15:hover {
+    transition: ease-in 0.3s;
+    background: rgba( 255, 255, 255, 0.05 );
+    box-shadow: 0 18px 32px 0 rgb(29, 29, 29);
+    backdrop-filter: blur( 0.0px );
+    -webkit-backdrop-filter: blur( 0.0px );
+    border-radius: 5px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background:url(/images/dev.jpg) rgba(0, 0, 0, 0.534);
+    background-size:cover;
+    background-blend-mode: multiply;
+}
+
+.imageover15 h3 {
+    text-shadow: 6px 6px 0px rgba(0,0,0,0.2);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: whitesmoke;
+}
+
+/* cta */ 
+
+.cta h4 {
+    font-family: 'Roboto', sans-serif;
+}
+
+.cta p {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* faq */ 
+
+.faq h4 {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* software */
+
+.card-bodysoftware {
+    padding: 2rem;
+}
+
+.card-bodysoftware h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+}
+
+/* footer */
+
+.paddingp h5 {
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.1rem;
+    font-size: 1rem;
+}
+
+.paddingp p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.9rem;
+    margin-bottom: 0%;
+}
